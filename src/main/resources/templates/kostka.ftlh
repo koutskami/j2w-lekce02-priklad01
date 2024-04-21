@@ -1,0 +1,22 @@
+[#ftl]
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Hod kostkou</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="/css/normalize.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/images/favicon.png" rel="icon" type="image/png">
+</head>
+<body>
+<div>
+    <div>
+        <img class="kostka" src="/images/kostka-#{hozeneCislo}.svg"/>
+    </div>
+    <div>Padlo číslo: <span>#{hozeneCislo}</span></div>
+</div>
+</body>
+</html>
